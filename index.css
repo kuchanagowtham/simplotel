@@ -1,0 +1,152 @@
+.nav-container {
+  background-color: rgb(209, 15, 15);
+  width: 100%;
+  max-width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+.menu-img {
+  height: 4vh;
+  width: 4vw;
+}
+.click {
+  background-color: #ff4d4d;
+  height: 30px;
+  width: 100px;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+.a-tags {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.burger-img {
+  height: 50vh;
+  width: 100%;
+}
+.text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffe6e6;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  height: 50vh;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.food-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.first-img-container {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  background-color: #ffe6e6;
+  padding-bottom: 15px;
+}
+.image-2 {
+  height: 155px;
+  width: 98%;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.two-image-con {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  height: 310px;
+}
+
+.image-3 {
+  width: 95%;
+  height: auto;
+}
+.right-image {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff4d4d;
+  height: auto;
+  width: 50%;
+  margin-left: 15px;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+
+.arrow-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.arrow-image {
+  height: 10px;
+  width: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .food-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .first-img-container {
+    width: 100%;
+  }
+
+  .bottom-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .two-image-con {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    margin: 0px;
+  }
+  .image2 {
+    width: 48%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  .image3 {
+    width: 100%;
+    height: auto;
+  }
+  .right-image {
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+  }
+  .bottom-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+}
